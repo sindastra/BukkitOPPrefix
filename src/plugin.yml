@@ -1,0 +1,7 @@
+main: io.github.sindastra.BukkitOPPrefix.Main
+version: 1.0
+name: SindastrasOPPrefix
+permissions:
+    opprefix.show:
+        description: Show the OP prefix
+        default: false

@@ -1,0 +1,12 @@
+# Make sure this file is kept UTF-8 encoded!
+
+# This is the prefix that should be displayed.
+# Minecraft formatting codes may be used.
+
+prefix: "§a[OP] §r"
+
+# The following decides whether the prefix is shown
+# for OPs too. If set to false, only people with the
+# permission opprefix.show will have the prefix.
+
+show-for-op: true
