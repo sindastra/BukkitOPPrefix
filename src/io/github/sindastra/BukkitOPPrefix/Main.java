@@ -1,6 +1,6 @@
 /**
  * BukkitOPPrefix
- * Copyright (C) 2016 Sindastra <https://github.com/sindastra>
+ * Copyright (C) 2019 Sindastra <https://github.com/sindastra>
  * All rights reserved.
  *
  * This and the above copyright notice shall be included in
@@ -14,10 +14,10 @@
  * TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  * 
- * This software is not affiliated with Bukkit.
+ * This software is not affiliated with Bukkit and/or Spigot.
  * 
  * @author Sindastra
- * @copyright Copyright (C) 2016 Sindastra. All rights reserved.
+ * @copyright Copyright (C) 2019 Sindastra. All rights reserved.
  */
 
 package io.github.sindastra.BukkitOPPrefix;
