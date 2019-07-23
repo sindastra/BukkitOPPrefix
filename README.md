@@ -26,3 +26,5 @@ This way you can use a permission system instead of having to give everyone OP.
 If you don't want to show the prefix for everyone that has the OP permission/status, update the config to use this:
 
     show-for-op: false
+
+This way you can turn the plugin into permission-only, to be able to show the prefix for just the people you want.
