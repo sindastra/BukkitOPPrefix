@@ -1,3 +1,5 @@
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W7W215OZB)
+
 # Sindastra's BukkitOPPrefix (also for Spigot)
 Simple Bukkit/Spigot plugin to display a prefix to OPs and people with the opprefix.show permission.
 
