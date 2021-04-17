@@ -1,6 +1,6 @@
 /**
  * BukkitOPPrefix
- * Copyright (C) 2019 Sindastra <https://github.com/sindastra>
+ * Copyright (c) 2016-2021, Sindastra <https://github.com/sindastra>
  * All rights reserved.
  *
  * This and the above copyright notice shall be included in
@@ -17,7 +17,7 @@
  * This software is not affiliated with Bukkit and/or Spigot.
  * 
  * @author Sindastra
- * @copyright Copyright (C) 2019 Sindastra. All rights reserved.
+ * @copyright Copyright (c) 2016-2021, Sindastra. All rights reserved.
  */
 
 package io.github.sindastra.BukkitOPPrefix;
@@ -41,6 +41,11 @@ public class Main extends JavaPlugin implements Listener
 		showForOp = getConfig().getBoolean("show-for-op");
 		
 		getServer().getPluginManager().registerEvents(this, this);
+		getLogger().info("Copyright (c) 2016-2021, Sindastra. All rights reserved.");
+		getLogger().info("This program is distributed in the hope that it will be useful,");
+		getLogger().info("but WITHOUT ANY WARRANTY; without even the implied warranty of");
+		getLogger().info("MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.");
+		getLogger().info("See https://github.com/sindastra/BukkitOPPrefix");
 		getLogger().info("Enabled!");
 	}
 	
