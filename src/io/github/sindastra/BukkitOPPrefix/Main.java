@@ -60,7 +60,7 @@ public class Main extends JavaPlugin implements Listener
 	{
 		if ( (event.getPlayer().isOp() && showForOp) || event.getPlayer().hasPermission("opprefix.show") )
 		{
-			event.setFormat(prefix + "<%s> %s");
+			event.setFormat(prefix + event.getFormat());
 		}
 	}
 	
