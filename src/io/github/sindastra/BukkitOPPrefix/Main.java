@@ -30,15 +30,15 @@ import org.bukkit.plugin.java.JavaPlugin;
 public class Main extends JavaPlugin implements Listener
 {
 	
-	private String prefix;
-	private boolean showForOp;
+	static private String prefix;
+	static private boolean showForOp;
 
 	@Override
 	public void onEnable()
 	{
 		saveDefaultConfig();
-		prefix = getConfig().getString("prefix");
-		showForOp = getConfig().getBoolean("show-for-op");
+		prefix = getConfig().getString("prefix", "§a[OP] §r");
+		showForOp = getConfig().getBoolean("show-for-op", true);
 		
 		getServer().getPluginManager().registerEvents(this, this);
 		getLogger().info("Copyright (c) 2016-2021, Sindastra. All rights reserved.");
